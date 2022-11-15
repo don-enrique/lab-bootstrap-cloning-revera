@@ -1,0 +1,86 @@
+.jumbotron {
+    background-image: url(/starter-code/img/overlay.png);
+    opacity: 0.4;
+    background-size: 18% ;
+    background-repeat: repeat;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.frmore {
+    background: rgba(255,255,255,0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 25px;
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin: 0.67em 0;
+    clear: both;
+    width: 33%;
+
+}
+
+.fwidgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.container {
+    max-width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.homewidget {
+    color: #fff;
+    text-align: center;
+    width: 33%;
+    float: left;
+    text-overflow: clip;
+}
+.col-sm-4 {
+    width: 33%;
+    float: left;
+}
+
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 60px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+    
+}
+
+.homewidget h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0 0 10px;
+    
+}
